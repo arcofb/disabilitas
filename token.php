@@ -2,7 +2,7 @@
 header('Access-Control-Allow-Origin: ' . $_SERVER['SERVER_NAME']);
 
 // Replace with your own subscription key and service region (e.g., "westus").
-$subscriptionKey = '05df863eb212437086eb2f2beea7e0c8';
+$subscriptionKey = '';
 $region = 'https://southeastasia.api.cognitive.microsoft.com/';
 
 $ch = curl_init();
